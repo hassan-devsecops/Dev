@@ -1,0 +1,143 @@
+    1  anaswaheed998@gmail.com
+    2  commmit
+    3  ls -la
+    4  git config --list
+    5  git status
+    6  git add index.html
+    7  git status
+    8  git commit -m "First v1 of index.html"
+    9  git log
+   10  git status
+   11  git diff
+   12  git add index.html
+   13  git status
+   14  git commit -m "This is v2 of index.html"
+   15  git add index.html
+   16  git commit -m "This is v3 of index.html"
+   17  git log
+   18  git show 9459e3e32bb25faf6df1e4f07d1859a0c8e8352f:index.html
+   19  git show 2d494600b99e2dd857fca7a7e318f7ab26b33dd8:index.html
+   20  git log
+   21  git checkout 9459e3e32bb25faf6df1e4f07d1859a0c8e8352f *
+   22  git checkout master -- *
+   23  git restore .
+   24  git add index.html
+   25  git status
+   26  git diff --cached
+   27  git restore --staged .
+   28  git status
+   29  git restore .
+   30  git status
+   31  git add index.html
+   32  git status
+   33  git status
+   34  git restore --worktree .
+   35  git commit -m "This is v4"
+   36  git add index.html
+   37  git commit -m "v5 commit by mistake"
+   38  git log
+   39  git reset --hard HEAD^
+   40  git log
+   41  git log -p -2
+   42  git log --stat
+   43  git log --pretty=oneline
+   44  git log -S "h1"
+   45  git log --grep="v4"
+   46  git log --author=Muhammad Hassan
+   47  git log --author="Muhammad Hassan"
+   48  git remote add origin https://github.com/hassan-devsecops/Dev.git
+   49  git branch -M main
+   50  git push -u origin main
+   51  git add index.html
+   52  git commit -m "v5"
+   53  git push
+   54  git remote
+   55  git remote -v
+   56  git pull
+   57  git log
+   58  git add index.html
+   59  git commit -m "v6"
+   60  git push
+   61  git branch
+   62  git branch design
+   63  git checkout design
+   64  git add *
+   65  git status
+   66  git commit -m "Added design for website"
+   67  git log
+   68  git checkout  main
+   69  git checkout design
+   70  git branch
+   71  git checkout main
+   72  git merge design
+   73  git push
+   74  git checkout design
+   75  git add index.html
+   76  git status
+   77  git commit -m "Changed H1 in design branch"
+   78  git push origin design
+   79  git checkout main
+   80  git pull
+   81  git checkout design
+   82  git add *
+   83  git commit -m "Changed the version to 6.1"
+   84  git checkout main
+   85  git add*
+   86  git add *
+   87  git commit -m "v7"
+   88  git merge design
+   89  git checkout design
+   90  git checkout main
+   91  git checkout design
+   92  git add *
+   93  git commit -m "v7 design"
+   94  git checkout main
+   95  git add *
+   96  git commit -m "v7.1 main"
+   97  git merge design
+   98  git merge --abort
+   99  git status
+  100  git branch
+  101  git checkout design
+  102  git checkout main
+  103  git checkout design
+  104  git checkout design
+  105  git add index.html
+  106  git commit -m "Update index.html"
+  107  git checkout design
+  108  git checkout main
+  109  git checkout design
+  110  git checkout main
+  111  git checkout design
+  112  git checkout main
+  113  git checkout design
+  114  git add *
+  115  git commit -m "v7.2 design"
+  116  git checkout main
+  117  git merge design
+  118  git commit
+  119  git checkout main
+  120  git checkout design
+  121  git log
+  122  git checkout main
+  123  git log
+  124  git push
+  125  git add *
+  126  git status
+  127  git add *
+  128  git add .gitignore
+  129  git commit -m "Adding Gitignore file"
+  130  git push
+  131  git clean -n
+  132  git clean -f
+  133  git tag -a V7 -m "This is version 7.2"
+  134  git tag
+  135  git show v7
+  136  git log
+  137  git tag -a V1 9459e3e32bb25faf6df1e4f07d1859a0c8e8352f -m This is version 1
+  138  git tag -a V1 9459e3e32bb25faf6df1e4f07d1859a0c8e8352f -m "This is version 1"
+  139* 
+  140  git show v1
+  141  git show v7
+  142  git push origin --tags
+  143  history >oldcommands.txt
